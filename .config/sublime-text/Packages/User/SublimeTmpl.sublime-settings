@@ -1,0 +1,8 @@
+{
+
+    "cpp": {
+        "syntax": "Packages/C++/C++.tmLanguage",
+        "extension": "cpp"
+    },
+	"disable_keymap_actions": "ruby, python, php, css, javascript"
+}

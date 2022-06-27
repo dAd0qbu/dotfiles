@@ -1,0 +1,6 @@
+[
+  {
+    "keys": ["ctrl+alt+c"], "command": "sublime_tmpl",
+    "args": {"type": "cpp"}, "context": [{"key": "sublime_tmpl.cpp"}]
+  }
+]
