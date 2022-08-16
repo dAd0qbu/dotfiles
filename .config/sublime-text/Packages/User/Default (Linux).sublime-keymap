@@ -1,0 +1,29 @@
+[
+    { "keys": ["ctrl+tab"], "command": "next_view" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+    { "keys": ["ctrl+escape"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    { "keys": ["escape"], "command": "run_macro_file",
+            "args": {"file": "Packages/User/Really_Go_To_Command_mode.sublime-macro"},
+            "context": [
+                { "key": "auto_complete_visible", "operator": "equal", "operand": true },
+                { "key": "setting.command_mode", "operand": false },
+                { "key": "setting.is_widget", "operand": false }
+            ]
+    },
+
+    //Terminus
+    { 
+        "keys": ["alt+escape"], "command": "terminus_open", "args": {
+            "cwd": "${file_path:${folder}}",
+            "show_in_panel": true
+        }
+    },
+    { 
+        "keys": ["ctrl+w"], "command": "terminus_close", "context": [{ "key": "terminus_view"}]
+    },
+    { 
+        "keys": ["alt+escape"], "command": "toggle_terminus_panel"
+    },
+    //Prettier
+    { "keys": ["ctrl+alt+f"], "command": "js_prettier" }
+]

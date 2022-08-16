@@ -1,0 +1,5 @@
+// Live Server Settings
+{
+    "node_executable_path": "/bin/node", 
+    "global_node_modules_path": "/usr/lib/node_modules", 
+}
